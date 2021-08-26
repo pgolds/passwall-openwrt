@@ -15,8 +15,8 @@ git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 
 git clone https://github.com/sensec/luci-app-udp2raw.git package/luci-app-udp2raw
 git clone https://github.com/pgolds/openwrt-udp2raw.git package/openwrt-udp2raw
-git clone https://github.com/kuoruan/openwrt-kcptun.git package/kcptun
-git clone https://github.com/kuoruan/luci-app-kcptun.git package/luci-app-kcptun
+# git clone https://github.com/kuoruan/openwrt-kcptun.git package/kcptun
+# git clone https://github.com/kuoruan/luci-app-kcptun.git package/luci-app-kcptun
 
 
 sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
