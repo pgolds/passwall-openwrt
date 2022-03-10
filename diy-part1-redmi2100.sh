@@ -13,14 +13,16 @@ echo -e "#max-ttl=600\nneg-ttl=600\nmin-cache-ttl=3600\nauth-ttl=3600" >> packag
 # git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 
+git clone --depth=1 https://github.com/Lienol/openwrt-package
+
 git clone https://github.com/sensec/luci-app-udp2raw.git package/luci-app-udp2raw
 git clone https://github.com/pgolds/openwrt-udp2raw.git package/openwrt-udp2raw
-# git clone https://github.com/kuoruan/openwrt-kcptun.git package/kcptun
-# git clone https://github.com/kuoruan/luci-app-kcptun.git package/luci-app-kcptun
+git clone https://github.com/kuoruan/openwrt-kcptun.git package/kcptun
+git clone https://github.com/kuoruan/luci-app-kcptun.git package/luci-app-kcptun
 
 
 sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
-sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
+# sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
 
 #git clone https://github.com/garypang13/luci-app-bypass.git package/luci-app-bypass
 #git clone https://github.com/garypang13/smartdns-le package/smartdns-le
