@@ -18,7 +18,7 @@ echo -e "#max-ttl=600\nneg-ttl=600\nmin-cache-ttl=3600\nauth-ttl=3600" >> packag
 
 # Add a feed source
 sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
-sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
+#sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
 
 #git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb
 #git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-vssr
