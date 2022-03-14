@@ -24,7 +24,7 @@ on:
     paths:
       - 'redmi-ac2100.config'
   schedule:
-    - cron: 0 8 * * 5
+    - cron: 0 8 */5 * *
   watch:
     types: started
 
