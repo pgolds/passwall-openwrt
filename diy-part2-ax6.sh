@@ -19,8 +19,8 @@ git clone https://github.com/sirpdboy/luci-app-netdata.git package/luci-app-netd
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
 git clone https://github.com/sensec/luci-app-udp2raw.git package/luci-app-udp2raw
 git clone https://github.com/pgolds/openwrt-udp2raw.git package/openwrt-udp2raw
-git clone https://github.com/kuoruan/openwrt-kcptun.git package/kcptun
-git clone https://github.com/kuoruan/luci-app-kcptun.git package/luci-app-kcptun
+# git clone https://github.com/kuoruan/openwrt-kcptun.git package/kcptun
+# git clone https://github.com/kuoruan/luci-app-kcptun.git package/luci-app-kcptun
 
 # Add luci-app-onliner
 git clone --depth=1 https://github.com/rufengsuixing/luci-app-onliner
